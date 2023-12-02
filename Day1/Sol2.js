@@ -21,7 +21,6 @@ console.log(
             replacement[0] + replacement[1] + replacement[0]
           ))
       );
-
       return r;
     })
     .map((row) => row.split("").filter((item) => !isNaN(item)))
