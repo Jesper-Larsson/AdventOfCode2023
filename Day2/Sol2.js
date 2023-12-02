@@ -7,7 +7,7 @@ console.log(
       row
         .split(": ")[1]
         .split(", ")
-        .flatMap((r) => r.split("; "))
+        .flatMap((col) => col.split("; "))
     ])
     .map((r) => {
       let dict = {};
