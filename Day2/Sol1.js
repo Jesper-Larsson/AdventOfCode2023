@@ -5,7 +5,6 @@ const allowedCounts = {
   green: 13,
   blue: 14
 };
-
 console.log(
   Data.split("\n")
     .map((row) => [
