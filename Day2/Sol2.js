@@ -21,7 +21,6 @@ console.log(
       const sum = Object.values(dict).reduce((a, b) => a * b);
       return [r[0], sum];
     })
-
     .map((r) => r[1])
     .reduce((a, b) => a + b)
 );
